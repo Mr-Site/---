@@ -1,0 +1,170 @@
+* {
+  word-spacing: 0px;
+}
+body {
+  /* overflow-x: hidden; */
+}
+/* header */
+.language-menu {
+  margin-left: 0px;
+  width: 60px;
+}
+#language-cd span {
+  display: none;
+}
+#top-menu {
+  margin-right: 50px;
+}
+
+.tools-menu li a span {
+  display: none;
+}
+.tools-menu li a img {
+  margin-top: 1px;
+  width: 18px;
+}
+
+#search-box {
+  margin-right: 0px;
+  padding-right: 5px;
+  width: 100px;
+}
+#h-logo-cd {
+  margin-top: 10px;
+}
+#h-logo {
+  margin: auto;
+  width: 250px;
+}
+#menu ul {
+  display: none;
+}
+
+#container {
+  margin: 0;
+  display: block;
+}
+#main-body {
+  width: 90%;
+  margin: auto;
+  margin-top: 1%;
+}
+
+/* right */
+
+#f-right-cd {
+  margin-right: 5px;
+}
+
+#f-right-matn :last-child {
+  display: none;
+}
+
+#f-right-cd #image {
+  width: 250px;
+  height: 150px;
+}
+#f-right-matn h2 {
+  font-size: 1.3rem;
+}
+
+#first-section .content,
+#third-section .content {
+  width: 30%;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#second-section .titre {
+  font-size: 1.3rem;
+  font-weight: 550;
+  padding: 10px 30px;
+}
+
+#second-section .content {
+  font-size: 1rem;
+  margin-right: 0px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  padding-right: 10px;
+}
+
+.head-line-titre {
+  margin-top: 7px;
+  font-size: 1.2rem;
+}
+.head-line {
+  width: 65%;
+}
+
+/* fourth */
+#fourth-section .head-line {
+  width: 75%;
+}
+
+/* left */
+
+#second-cd .head-line {
+  width: 55%;
+}
+
+/* ad */
+#ad-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#ad-box div img {
+  width: 300px;
+  height: 110px;
+}
+
+#ad-box div video {
+  width: 300px;
+  height: 110px;
+}
+
+#recomended {
+  width: 500px;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+#recomended .content img {
+  width: 200px;
+  height: 100px;
+  border-radius: 0px;
+}
+
+#recomended .content p {
+  width: 200px;
+}
+
+/* footer */
+
+#footer #copyrihgt {
+  justify-content: center;
+}
+#footer #copyrihgt img {
+  margin-right: 0;
+}
+
+#footer #copyrihgt ul {
+  margin-left: 0;
+}
+
+#footer-text {
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0;
+  text-align: center;
+}
+
+#footer-text p {
+  width: 100%;
+  margin-left: 0;
+}

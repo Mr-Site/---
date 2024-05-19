@@ -8,6 +8,7 @@ body {
   width: 100%;
   margin: 0;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 ::-webkit-scrollbar {
   width: 5px;
@@ -593,47 +594,9 @@ a {
   direction: ltr;
 }
 
-/* hover */
-.tools-menu li a:hover,
-#footer #copyrihgt ul li a:hover {
-  color: #fff;
-  transition: 0.5s;
-}
-
-#menu ul li a:hover {
-  border-bottom: 3px solid #fff;
-  border-radius: 0;
-}
-
-#f-right-cd #image:hover,
-#first-section .content img:hover,
-#third-section .content img:hover,
-#fourth-section .content img:hover,
-#recomended .content img:hover {
-  transform: scale(1.05);
-}
-#f-right-matn h2:hover,
-#first-section .content h3:hover,
-#second-section .content .text:hover,
-#third-section .content h3:hover,
-#fourth-section .content h3:hover,
-#left-cd #first-cd ul li:hover,
-#left-cd #first-cd ul li a:hover,
-#left-cd #second-cd ul li:hover,
-#left-cd #second-cd ul li a:hover,
-#recomended .content p:hover {
-  color: #004adf;
-  transform: scale(1.05);
-}
-
-.head-line-titre:hover {
-  color: red;
-  transform: scale(1.05);
-}
-
 /* active */
 
-.tools-menu li a:active,
+.tools-menu li a span:active,
 #footer #copyrihgt ul li a:active {
   color: #fff;
   transition: 0.5s;
@@ -666,6 +629,44 @@ a {
 }
 
 .head-line-titre:active {
+  color: red;
+  transform: scale(1.05);
+}
+
+/* hover */
+.tools-menu li a span:hover,
+#footer #copyrihgt ul li a:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+
+#menu ul li a:hover {
+  border-bottom: 3px solid #fff;
+  border-radius: 0;
+}
+
+#f-right-cd #image:hover,
+#first-section .content img:hover,
+#third-section .content img:hover,
+#fourth-section .content img:hover,
+#recomended .content img:hover {
+  transform: scale(1.05);
+}
+#f-right-matn h2:hover,
+#first-section .content h3:hover,
+#second-section .content .text:hover,
+#third-section .content h3:hover,
+#fourth-section .content h3:hover,
+#left-cd #first-cd ul li:hover,
+#left-cd #first-cd ul li a:hover,
+#left-cd #second-cd ul li:hover,
+#left-cd #second-cd ul li a:hover,
+#recomended .content p:hover {
+  color: #004adf;
+  transform: scale(1.05);
+}
+
+.head-line-titre:hover {
   color: red;
   transform: scale(1.05);
 }
